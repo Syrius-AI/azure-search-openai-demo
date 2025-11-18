@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [react()],
     resolve: {
         preserveSymlinks: true
-    },
+    },,,
     build: {
         outDir: "../backend/static",
         emptyOutDir: true,
